@@ -1,0 +1,27 @@
+{
+  "name": "ZorkGPT",
+  "version": "1.0.0",
+  "description": "Using ChatGPT, play zork. Record completion time.",
+  "main": "index.ts",
+  "author": "Braelyn Boynton",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./",
+    "start": "node dist/index.js",
+    "watch": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "intercept-stdout": "^0.1.2",
+    "openai": "^3.1.0",
+    "zorkjs": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
