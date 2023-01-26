@@ -1,3 +1,4 @@
 .env
 /dist
 gpt-log.txt
+/node_modules
